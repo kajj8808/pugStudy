@@ -1,0 +1,24 @@
+{
+  "name": "pugStudy",
+  "version": "1.0.0",
+  "description": "pugStudy",
+  "main": "pug.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node pug.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kajj8808/pugStudy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kajj8808/pugStudy/issues"
+  },
+  "homepage": "https://github.com/kajj8808/pugStudy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}

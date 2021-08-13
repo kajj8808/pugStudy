@@ -1,0 +1,18 @@
+doctype html
+html
+  head 
+    style 
+      include footer.css
+    title is title!
+  body
+    include header
+    p #{name} 's Goood Name! 
+
+    a(href = link): img(src = image) 
+
+    p(option) author !
+
+    ul
+      for item in array
+        li Number - #{item}
+    include footer
